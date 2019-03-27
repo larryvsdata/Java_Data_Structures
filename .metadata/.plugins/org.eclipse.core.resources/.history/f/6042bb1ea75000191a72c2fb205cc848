@@ -17,11 +17,7 @@ public class TreeNode {
 				leftChild.insert(value);
 			}
 		}
-		else {
-			if (rightChild == null) {
-				rightChild = new TreeNode(value);
-			}
-		}
+
 		
 	}
 	

@@ -8,21 +8,6 @@ public class TreeNode {
 		if(value == data) {
 			return;
 		}
-		
-		if(value < data) {
-			if(leftChild == null) {
-				leftChild = new TreeNode(value);
-			}
-			else {
-				leftChild.insert(value);
-			}
-		}
-		else {
-			if (rightChild == null) {
-				rightChild = new TreeNode(value);
-			}
-		}
-		
 	}
 	
 	public TreeNode(int data) {
