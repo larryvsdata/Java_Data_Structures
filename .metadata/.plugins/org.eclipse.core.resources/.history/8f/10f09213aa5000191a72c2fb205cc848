@@ -21,9 +21,6 @@ public class TreeNode {
 			if (rightChild == null) {
 				rightChild = new TreeNode(value);
 			}
-			else {
-				rightChild.insert(value);
-			}
 		}
 		
 	}

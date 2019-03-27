@@ -7,7 +7,7 @@ public class Tree {
 			root = new TreeNode(value);
 		}
 		else {
-			root.insert(value);
+			rott.insert(value);
 		}
 	}
 
