@@ -32,7 +32,7 @@ public class TreeNode {
 		if(leftChild != null) {
 			leftChild.traverseInOrder();
 		}
-		System.out.print( data + ", ");
+		System.out.print("Data = " + data + ", ");
 		if(rightChild != null) {
 			rightChild.traverseInOrder();
 		}
