@@ -61,7 +61,7 @@ public class TreeNode {
 			return data;
 		}
 		else {
-			return rightChild.max();
+			return rightChild.min();
 		}
 	}
 	
